@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxFrame" name="PoliticsHQ">
+		<title>Frame</title>
+		<object class="wxStaticBox" name="ID_STATICBOX1">
+			<label>PoliticsHQ</label>
+			<pos>8,8</pos>
+		</object>
+		<object class="wxSearchCtrl" name="ID_SEARCHCTRL1">
+			<pos>80,8</pos>
+			<size>160,19</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL1">
+			<pos>16,48</pos>
+			<size>336,200</size>
+		</object>
+	</object>
+</resource>

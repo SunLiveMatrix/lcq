@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxDialog" name="Development">
+		<title>Dialog</title>
+		<centered>1</centered>
+		<object class="wxListCtrl" name="ID_LISTCTRL1">
+			<pos>176,104</pos>
+		</object>
+	</object>
+</resource>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_STATICBOX1" class="wxStaticBox" variable="StaticBox1" member="yes" />
+		<object name="ID_SEARCHCTRL1" class="wxSearchCtrl" variable="SearchCtrl1" member="yes" />
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel1" member="yes" />
+	</resource_extra>
+</wxsmith>

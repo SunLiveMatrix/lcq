@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxFrame" name="Property">
+		<title>Frame</title>
+		<object class="wxPanel" name="ID_PANEL1">
+			<pos>200,144</pos>
+			<object class="wxSpinButton" name="ID_SPINBUTTON1">
+				<max>100</max>
+				<pos>8,8</pos>
+				<size>184,34</size>
+			</object>
+			<object class="wxRichTextStyleListCtrl" name="ID_RICHTEXTSTYLELISTCTRL1">
+				<control></control>
+				<style_sheet></style_sheet>
+				<style_type>4294967297</style_type>
+				<pos>8,48</pos>
+				<size>180,84</size>
+			</object>
+			<object class="wxRichTextStyleListBox" name="ID_RICHTEXTSTYLELISTBOX1">
+				<control></control>
+				<style_sheet></style_sheet>
+				<pos>200,56</pos>
+				<size>184,72</size>
+			</object>
+			<object class="wxSpinCtrlDouble" name="ID_SPINCTRLDOUBLE1">
+				<value>0</value>
+				<increment>0.010000</increment>
+				<pos>200,8</pos>
+				<size>192,34</size>
+			</object>
+			<object class="wxToggleButton" name="ID_TOGGLEBUTTON1">
+				<label>Label</label>
+				<pos>296,152</pos>
+			</object>
+			<object class="wxToggleButton" name="ID_TOGGLEBUTTON2">
+				<label>Cancel</label>
+				<pos>208,152d</pos>
+				<help>Cancel</help>
+			</object>
+		</object>
+	</object>
+</resource>

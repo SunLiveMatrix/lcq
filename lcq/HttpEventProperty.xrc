@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxScrollingDialog" name="HttpEventProperty">
+		<title>ScrollingDialog</title>
+		<centered>1</centered>
+		<object class="wxListbook" name="ID_LISTBOOK1">
+			<pos>296,152</pos>
+		</object>
+	</object>
+</resource>

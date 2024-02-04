@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel1" member="yes" />
+		<object name="ID_PANEL2" class="wxPanel" variable="Panel2" member="yes" />
+		<object name="ID_PANEL3" class="wxPanel" variable="Panel3" member="yes" />
+		<object name="ID_HYPERLINKCTRL1" class="wxHyperlinkCtrl" variable="HyperlinkCtrl1" member="yes" />
+		<object name="ID_STATICTEXT1" class="wxStaticText" variable="StaticText1" member="yes" />
+	</resource_extra>
+</wxsmith>

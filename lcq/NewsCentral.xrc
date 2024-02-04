@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxPanel" name="NewsCentral">
+		<size>272,241</size>
+		<object class="wxPanel" name="ID_PANEL1">
+			<pos>184,8</pos>
+			<size>72,64</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL2">
+			<pos>96,8</pos>
+			<size>72,64</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL3">
+			<pos>8,8</pos>
+			<size>72,64</size>
+		</object>
+		<object class="wxHyperlinkCtrl" name="ID_HYPERLINKCTRL1">
+			<label>https://newscentral.africa/watch-live/</label>
+			<pos>8,192</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1">
+			<label>NewsCentral</label>
+			<pos>16,152</pos>
+			<size>232,24</size>
+		</object>
+	</object>
+</resource>

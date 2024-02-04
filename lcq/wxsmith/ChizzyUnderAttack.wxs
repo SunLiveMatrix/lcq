@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1">
+			<handler function="OnInit" entry="EVT_INIT_DIALOG" />
+			<handler function="OnEraseBackground" entry="EVT_ERASE_BACKGROUND" />
+			<handler function="OnChar" entry="EVT_CHAR" />
+			<handler function="OnMouseMove" entry="EVT_MOTION" />
+			<handler function="OnMouseWheel" entry="EVT_MOUSEWHEEL" />
+			<handler function="OnSetCursor" entry="EVT_SET_CURSOR" />
+			<handler function="OnResize" entry="EVT_SIZE" />
+		</object>
+		<object name="ID_RICHTEXTCTRL1" class="wxRichTextCtrl" variable="RichTextCtrl1" member="yes">
+			<handler function="OnRichTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object name="ID_NOTEBOOK1" class="wxNotebook" variable="Notebook1" member="yes">
+			<handler function="OnNotebook1PageChanged" entry="EVT_NOTEBOOK_PAGE_CHANGED" />
+		</object>
+		<object name="ID_TREECTRL1" class="wxTreeCtrl" variable="TreeCtrl1" member="yes" />
+		<object name="ID_TREEBOOK1" class="wxTreebook" variable="Treebook1" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTBOX1" class="wxRichTextStyleListBox" variable="RichTextStyleListBox1" member="yes" />
+	</resource_extra>
+</wxsmith>

@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1707008313 source:/home/admin/lcp.net/lcq/lcq/ObjectEventProperty/Event/Click.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+	"string"
+
+1707007567 source:/home/admin/lcp.net/lcq/lcq/ObjectEventProperty/Object.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+	"string"
+
+1707008812 source:/home/admin/lcp.net/lcq/lcq/ObjectEventProperty/Property/match.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdfix.h"
+	"stddef.h"
+	"string"
+
+1707009394 source:/home/admin/lcp.net/lcq/lcq/main.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+
+1707009322 source:/home/admin/lcp.net/lcq/lcq/EventProperty.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+
+1707018617 source:/home/admin/lcp.net/lcq/lcq/ChizzyUnderAttack/Attack/menset.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+	"stdfix.h"
+
+1707020015 source:/home/admin/lcp.net/lcq/lcq/ChizzyUnderAttack/UnderAttack/OneSlot.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+	"stdfix.h"
+	"string"
+	"array"
+
+1707018617 source:/home/admin/lcp.net/lcq/lcq/NewsCentral/PoliticsHQ/news.cpp
+	"stdio.h"
+	"stdlib.h"
+	"stdint.h"
+	"stdarg.h"
+	"stddef.h"
+	"stdfix.h"
+	"string"
+

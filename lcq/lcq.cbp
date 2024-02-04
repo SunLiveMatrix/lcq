@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lcq" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="HttpEventProperty/;HttpEventProperty/Event/;HttpEventProperty/Property/;ObjectEventProperty/;ObjectEventProperty/Event/;ObjectEventProperty/Property/;NewsCentral/;NewsCentral/PoliticsHQ/;ChizzyUnderAttack/;ChizzyUnderAttack/Under/;ChizzyUnderAttack/Attack/;ChizzyUnderAttack/UnderAttack/;Development/;Development/G77/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lcq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lcq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Attack.cpp" />
+		<Unit filename="Attack.h" />
+		<Unit filename="ChizzyUnderAttack.cpp" />
+		<Unit filename="ChizzyUnderAttack.h" />
+		<Unit filename="ChizzyUnderAttack/Attack/menset.cpp" />
+		<Unit filename="ChizzyUnderAttack/Under/Attack.h" />
+		<Unit filename="ChizzyUnderAttack/UnderAttack/OneSlot.cpp" />
+		<Unit filename="Development.cpp" />
+		<Unit filename="Development.h" />
+		<Unit filename="Development/G77/IceCream.h" />
+		<Unit filename="Event.cpp" />
+		<Unit filename="Event.h" />
+		<Unit filename="EventProperty.cpp" />
+		<Unit filename="G77.cpp" />
+		<Unit filename="G77.h" />
+		<Unit filename="HttpEventProperty.cpp" />
+		<Unit filename="HttpEventProperty.h" />
+		<Unit filename="HttpEventProperty/Event/Property.h" />
+		<Unit filename="HttpEventProperty/Property/Event.h" />
+		<Unit filename="NewsCentral.cpp" />
+		<Unit filename="NewsCentral.h" />
+		<Unit filename="NewsCentral/PoliticsHQ/news.cpp" />
+		<Unit filename="ObjectEventProperty.cpp" />
+		<Unit filename="ObjectEventProperty.h" />
+		<Unit filename="ObjectEventProperty/Event/Click.cpp" />
+		<Unit filename="ObjectEventProperty/Object.cpp" />
+		<Unit filename="ObjectEventProperty/Property/match.cpp" />
+		<Unit filename="PoliticsHQ.cpp" />
+		<Unit filename="PoliticsHQ.h" />
+		<Unit filename="Property.cpp" />
+		<Unit filename="Property.h" />
+		<Unit filename="Under.cpp" />
+		<Unit filename="Under.h" />
+		<Unit filename="UnderAttack.cpp" />
+		<Unit filename="UnderAttack.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="wxsmith/Attack.wxs" />
+		<Unit filename="wxsmith/ChizzyUnderAttack.wxs" />
+		<Unit filename="wxsmith/Development.wxs" />
+		<Unit filename="wxsmith/Event.wxs" />
+		<Unit filename="wxsmith/G77.wxs" />
+		<Unit filename="wxsmith/HttpEventProperty.wxs" />
+		<Unit filename="wxsmith/NewsCentral.wxs" />
+		<Unit filename="wxsmith/ObjectEventProperty.wxs" />
+		<Unit filename="wxsmith/PoliticsHQ.wxs" />
+		<Unit filename="wxsmith/Property.wxs" />
+		<Unit filename="wxsmith/Under.wxs" />
+		<Unit filename="wxsmith/UnderAttack.wxs" />
+		<Extensions>
+			<wxsmith version="1">
+				<resources>
+					<wxDialog wxs="wxsmith/ChizzyUnderAttack.wxs" src="ChizzyUnderAttack.cpp" hdr="ChizzyUnderAttack.h" xrc="ChizzyUnderAttack.xrc" fwddecl="0" i18n="1" name="ChizzyUnderAttack" language="CPP" />
+					<wxFrame wxs="wxsmith/Attack.wxs" src="Attack.cpp" hdr="Attack.h" xrc="Attack.xrc" fwddecl="0" i18n="1" name="Attack" language="CPP" />
+					<wxFrame wxs="wxsmith/Under.wxs" src="Under.cpp" hdr="Under.h" xrc="Under.xrc" fwddecl="0" i18n="1" name="Under" language="CPP" />
+					<wxFrame wxs="wxsmith/UnderAttack.wxs" src="UnderAttack.cpp" hdr="UnderAttack.h" xrc="UnderAttack.xrc" fwddecl="0" i18n="1" name="UnderAttack" language="CPP" />
+					<wxDialog wxs="wxsmith/Development.wxs" src="Development.cpp" hdr="Development.h" xrc="Development.xrc" fwddecl="0" i18n="1" name="Development" language="CPP" />
+					<wxFrame wxs="wxsmith/G77.wxs" src="G77.cpp" hdr="G77.h" xrc="G77.xrc" fwddecl="0" i18n="1" name="G77" language="CPP" />
+					<wxScrollingDialog wxs="wxsmith/HttpEventProperty.wxs" src="HttpEventProperty.cpp" hdr="HttpEventProperty.h" xrc="HttpEventProperty.xrc" fwddecl="0" i18n="1" name="HttpEventProperty" language="CPP" />
+					<wxFrame wxs="wxsmith/Event.wxs" src="Event.cpp" hdr="Event.h" xrc="Event.xrc" fwddecl="0" i18n="1" name="Event" language="CPP" />
+					<wxFrame wxs="wxsmith/Property.wxs" src="Property.cpp" hdr="Property.h" xrc="Property.xrc" fwddecl="0" i18n="1" name="Property" language="CPP" />
+					<wxPanel wxs="wxsmith/NewsCentral.wxs" src="NewsCentral.cpp" hdr="NewsCentral.h" xrc="NewsCentral.xrc" fwddecl="0" i18n="1" name="NewsCentral" language="CPP" />
+					<wxFrame wxs="wxsmith/PoliticsHQ.wxs" src="PoliticsHQ.cpp" hdr="PoliticsHQ.h" xrc="PoliticsHQ.xrc" fwddecl="0" i18n="1" name="PoliticsHQ" language="CPP" />
+					<wxDialog wxs="wxsmith/ObjectEventProperty.wxs" src="ObjectEventProperty.cpp" hdr="ObjectEventProperty.h" xrc="ObjectEventProperty.xrc" fwddecl="0" i18n="1" name="ObjectEventProperty" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

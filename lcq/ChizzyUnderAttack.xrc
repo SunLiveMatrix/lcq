@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxDialog" name="ChizzyUnderAttack">
+		<title>Dialog</title>
+		<centered>1</centered>
+		<help>ChizzyUnderAttack</help>
+		<style>wxSTAY_ON_TOP|wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER|wxDIALOG_NO_PARENT|wxMAXIMIZE_BOX|wxMINIMIZE_BOX|wxFRAME_SHAPED|wxBORDER_SIMPLE|wxVSCROLL|wxHSCROLL|wxALWAYS_SHOW_SB|wxCLIP_CHILDREN</style>
+		<exstyle>wxDIALOG_EX_CONTEXTHELP|wxDIALOG_EX_METAL|wxWS_EX_BLOCK_EVENTS|wxWS_EX_VALIDATE_RECURSIVELY</exstyle>
+		<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL1">
+			<value>Text</value>
+			<pos>8,72</pos>
+			<size>216,88</size>
+		</object>
+		<object class="wxNotebook" name="ID_NOTEBOOK1">
+			<pos>8,16</pos>
+			<size>384,48</size>
+		</object>
+		<object class="wxTreeCtrl" name="ID_TREECTRL1">
+			<image_list>&lt;none&gt;</image_list>
+			<tree_items>
+				<item>TreeCtrl1</item>
+				<item>&lt;none&gt;</item>
+			</tree_items>
+			<items_text>
+				<item2>TreeCtrl1</item2>
+				<item2>&lt;none&gt;</item2>
+			</items_text>
+			<pos>232,72</pos>
+			<size>160,88</size>
+		</object>
+		<object class="wxTreebook" name="ID_TREEBOOK1">
+			<pos>232,176</pos>
+			<size>160,72</size>
+		</object>
+		<object class="wxRichTextStyleListBox" name="ID_RICHTEXTSTYLELISTBOX1">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>8,168</pos>
+			<size>216,80</size>
+		</object>
+	</object>
+</resource>

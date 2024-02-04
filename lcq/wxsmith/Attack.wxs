@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_HYPERLINKCTRL1" class="wxHyperlinkCtrl" variable="HyperlinkCtrl1" member="yes">
+			<handler function="OnHyperlinkCtrl1Click" entry="EVT_HYPERLINK" />
+		</object>
+	</resource_extra>
+</wxsmith>

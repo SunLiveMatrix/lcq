@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel1" member="yes" />
+		<object name="ID_SPINBUTTON1" class="wxSpinButton" variable="SpinButton1" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTCTRL1" class="wxRichTextStyleListCtrl" variable="RichTextStyleListCtrl1" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTBOX1" class="wxRichTextStyleListBox" variable="RichTextStyleListBox1" member="yes" />
+		<object name="ID_SPINCTRLDOUBLE1" class="wxSpinCtrlDouble" variable="SpinCtrlDouble1" member="yes" />
+		<object name="ID_TOGGLEBUTTON1" class="wxToggleButton" variable="ToggleButton1" member="yes">
+			<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object name="ID_TOGGLEBUTTON2" class="wxToggleButton" variable="ToggleButton2" member="yes">
+			<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+	</resource_extra>
+</wxsmith>
